@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+}
+
+header{
+    background-color: #85D5F2; 
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 0;
+    background-color: rgb(165, 226, 43);
+}
+nav ul li {
+    display: inline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;}
+
+nav ul li a {
+    text-decoration: none;
+    color: bisque;
+}
+
+nav ul li:hover {
+    background-color: #34ae58;
+}
+li.currentPage {
+    background-color: #e2836a;
+}
+main {
+    flex: 1;
+    padding: 20px 20px 20px 20px;
+}
+
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.size-select{ 
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    display: block;
+}
+input[type="text"], select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-left: 16px;
+}
+input[type="submit"] {
+    background-color: #85D5F2; 
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+}
+footer{
+    background-color: #85D5F2; 
+    color: white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
